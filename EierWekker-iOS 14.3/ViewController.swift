@@ -9,11 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    let softTime = 5
+    let mediumTime = 8
+    let hardTime = 12
+    var kooktijd: Int = 0
+
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        let hardness = sender.currentTitle
+        
+        if hardness == "Soft" {
+            kooktijd = softTime
+        } else if hardness == "Medium" {
+            kooktijd = mediumTime
+        } else {
+            kooktijd = hardTime
+        }
+        
+        print("Kooktijd is ", kooktijd)
     }
-
-
+    
 }
 
