@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C198246A259BC70B003A58C0 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../EggTimer-iOS13/EggTimer/Sounds/alarm_sound.mp3"; sourceTree = "<group>"; };
 		C1F04A932598ED22002AA521 /* EierWekker-iOS 14.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EierWekker-iOS 14.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F04A962598ED23002AA521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F04A982598ED23002AA521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 				C1F04A962598ED23002AA521 /* AppDelegate.swift */,
 				C1F04A982598ED23002AA521 /* SceneDelegate.swift */,
 				C1F04A9A2598ED23002AA521 /* ViewController.swift */,
+				C198246A259BC70B003A58C0 /* alarm_sound.mp3 */,
 				C1F04A9C2598ED23002AA521 /* Main.storyboard */,
 				C1F04A9F2598ED39002AA521 /* Assets.xcassets */,
 				C1F04AA12598ED39002AA521 /* LaunchScreen.storyboard */,
