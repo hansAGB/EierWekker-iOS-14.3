@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -42,19 +41,19 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2WK-On-tba" userLabel="Soft Egg View">
                                                 <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
                                                 <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="cs2-z9-fZT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
+                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjZ-qW-LPf">
                                                         <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
                                                         <state key="normal" title="Soft">
-                                                            <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ifg-ZA-Cjc"/>
                                                         </connections>
                                                     </button>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="cs2-z9-fZT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
-                                                    </imageView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="qjZ-qW-LPf" secondAttribute="bottom" id="8Fp-z8-xwp"/>
@@ -70,19 +69,19 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2Z-S0-JnG" userLabel="Medium Egg View">
                                                 <rect key="frame" x="124.5" y="0.0" width="105" height="258"/>
                                                 <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="4kp-h8-weF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="105" height="258"/>
+                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqb-jO-BNd">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="258"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
                                                         <state key="normal" title="Medium">
-                                                            <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgD-fJ-qel"/>
                                                         </connections>
                                                     </button>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="4kp-h8-weF">
-                                                        <rect key="frame" x="0.0" y="0.0" width="105" height="258"/>
-                                                    </imageView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="tqb-jO-BNd" secondAttribute="trailing" id="3Eo-n0-fQ3"/>
@@ -98,19 +97,19 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kw5-pk-nx8" userLabel="Hard Egg View">
                                                 <rect key="frame" x="249.5" y="0.0" width="104.5" height="258"/>
                                                 <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="5LK-45-hkS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
+                                                    </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYC-uz-pF7">
                                                         <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
                                                         <state key="normal" title="Hard">
-                                                            <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w3v-Fe-uot"/>
                                                         </connections>
                                                     </button>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="5LK-45-hkS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="258"/>
-                                                    </imageView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="5LK-45-hkS" firstAttribute="leading" secondItem="kw5-pk-nx8" secondAttribute="leading" id="9b7-xh-9BK"/>
@@ -150,8 +149,5 @@
         <image name="hard_egg" width="287.5" height="366"/>
         <image name="medium_egg" width="288" height="363"/>
         <image name="soft_egg" width="287" height="365"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

@@ -9,23 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let softTime = 5
-    let mediumTime = 8
-    let hardTime = 12
-    var kooktijd: Int = 0
+    let  kookDir: [String: Int] = [
+        "Soft" : 5,
+        "Medium" : 8,
+        "Hard" : 12
+    ]
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        let hardness = sender.currentTitle
+        let hardness = sender.currentTitle!
         
-        if hardness == "Soft" {
-            kooktijd = softTime
-        } else if hardness == "Medium" {
-            kooktijd = mediumTime
-        } else {
-            kooktijd = hardTime
-        }
-        
-        print("Kooktijd is ", kooktijd)
+        print("Kooktijd = ", kookDir[hardness]!)
     }
     
 }
