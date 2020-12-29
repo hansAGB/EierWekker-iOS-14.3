@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1982476259BD11D003A58C0 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1982474259BD0E4003A58C0 /* alarm_sound.mp3 */; };
 		C1F04A972598ED23002AA521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F04A962598ED23002AA521 /* AppDelegate.swift */; };
 		C1F04A992598ED23002AA521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F04A982598ED23002AA521 /* SceneDelegate.swift */; };
 		C1F04A9B2598ED23002AA521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F04A9A2598ED23002AA521 /* ViewController.swift */; };
@@ -16,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C198246A259BC70B003A58C0 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "EierWekker-iOS 14.3/alarm_sound.mp3"; sourceTree = SOURCE_ROOT; };
+		C1982473259BD0E4003A58C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Base; path = Base.lproj/alarm_sound.mp3; sourceTree = "<group>"; };
 		C1F04A932598ED22002AA521 /* EierWekker-iOS 14.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EierWekker-iOS 14.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F04A962598ED23002AA521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F04A982598ED23002AA521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +61,7 @@
 				C1F04A962598ED23002AA521 /* AppDelegate.swift */,
 				C1F04A982598ED23002AA521 /* SceneDelegate.swift */,
 				C1F04A9A2598ED23002AA521 /* ViewController.swift */,
-				C198246A259BC70B003A58C0 /* alarm_sound.mp3 */,
+				C1982474259BD0E4003A58C0 /* alarm_sound.mp3 */,
 				C1F04A9C2598ED23002AA521 /* Main.storyboard */,
 				C1F04A9F2598ED39002AA521 /* Assets.xcassets */,
 				C1F04AA12598ED39002AA521 /* LaunchScreen.storyboard */,
@@ -128,6 +129,7 @@
 			files = (
 				C1F04AA32598ED39002AA521 /* LaunchScreen.storyboard in Resources */,
 				C1F04AA02598ED39002AA521 /* Assets.xcassets in Resources */,
+				C1982476259BD11D003A58C0 /* alarm_sound.mp3 in Resources */,
 				C1F04A9E2598ED23002AA521 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +150,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C1982474259BD0E4003A58C0 /* alarm_sound.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1982473259BD0E4003A58C0 /* Base */,
+			);
+			name = alarm_sound.mp3;
+			path = "/Users/hansaangeenbrug/Desktop/IOS14.3 Apps/EierWekker-iOS 14.3/EierWekker-iOS 14.3";
+			sourceTree = "<absolute>";
+		};
 		C1F04A9C2598ED23002AA521 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

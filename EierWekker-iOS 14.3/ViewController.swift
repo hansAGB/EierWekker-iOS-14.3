@@ -70,7 +70,7 @@ class ViewController: UIViewController {
 
     func playSound() {
        
-        let url = Bundle.main.url(forResource: "EierWekker-iOS 14.3/alarm_sound", withExtension: "mp3")
+        let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
         
         do {
             if url != nil {
