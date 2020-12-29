@@ -9,6 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var updateProgress: UIProgressView!
+    
+    
+    
     let  kookDir: [String: Int] = [
         "Soft" : 3,
         "Medium" : 4,
@@ -23,7 +28,12 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
         let hardness = sender.currentTitle!
 
+        timer.invalidate()
+        
         print("Kooktijd = ", kookDir[hardness]!)
+        titleLabel.text = hardness
+        
+        updateProgress.progress = 0.0
         
         timeCooked = 0
         totalTime = kookDir[hardness]!
@@ -35,8 +45,13 @@ class ViewController: UIViewController {
 
     
     @objc func update() {
-        if timeCooked > totalTime {
-             timeCooked += 1
+        if timeCooked < totalTime {
+            timeCooked += 1
+            print(timeCooked)
+            updateProgress.progress = Float(timeCooked) / Float(totalTime)
+        } else {
+            timer.invalidate()
+            titleLabel.text = "KLAAR!"
         }
     }
     
